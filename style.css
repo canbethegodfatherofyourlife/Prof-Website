@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+#nav1 {
+  margin-right: 40px;
+}
+#nav2 {
+  margin-right: 40px;
+}
+#nav3 {
+  margin-right: 40px;
+}
+#nav4 {
+  margin-right: 40px;
+}
+#nav5 {
+  margin-right: 50px;
+}
+.para1 {
+  margin-left: 50px;
+  font-family: "Playfair Display";
+  font-size: 25px;
+  margin-top: 15px;
+}
+#aboutme {
+  padding-left: 50px;
+  padding-right: 90px;
+  margin-top: 15px;
+}
+
+.bg {
+  background-color: #163742;
+  padding: 100px;
+  color: azure;
+  padding-bottom: 50px;
+}
+.aboutme {
+  display: flex;
+}
+
+.contact{
+  display: flex;
+  margin: 10vh;
+  
+}
+
+.head {
+  font-family: didot-w01-italic, serif;
+  font-style: italic;
+  color: pink;
+}
+
+
+
+.heading {
+    font-family: didot-w01-italic, serif;
+    font-style: italic;
+    color: pink;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .heading-foot {
+    font-family: didot-w01-italic, serif;
+    color: rgb(116, 68, 76);
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+.bg1 {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.followus {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-icons {
+  background-color: #163742;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  padding-right: 17px;
+  padding-left: 14px;
+}
+
+.icons {
+  color: pink;
+  font-size: 23px;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyr {
+  margin-top: 12px;
+  color: #163742;
+  font-weight: bold;
+}
+
+.publications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.bg2 {
+  background-color: #163742;
+  color: azure;
+  padding-bottom: 50px;
+}
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.button-17:hover {
+  background: #f6f9fe;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 2px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 4px 4px 0,
+    rgba(60, 64, 67, 0.15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 3px 0,
+    rgba(60, 64, 67, 0.15) 0 4px 8px 3px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#view_more_content{
+    display: none;
+}
+
+ul{
+    padding: 4vw 15vw 8vw 15vw;
+}
+
+#scientific_articles_content{
+  display: none;
+}
+
+#publications{
+  display: none;
+}
+
+#contact{
+  display: none;
+}
+
+.lower-foot{
+  align-self: center;
+}
+
+.btn-4{
+  width:300px;
+  height:35px;
+  text-align:center;
+  padding:15px 15px 15px 15px;  
+  font-size:18px;
+}
+
+a{
+  text-decoration:none;
+  color :rgba(255,255,255);
+  
+}
+
+.btn-4{
+  background-image:linear-gradient(to right, rgba(0,0,0,0.5), #4b6cb7, #812848);
+  border:2px, #9d50bb;
+  border: radius 15px;
+  
+}
+
+.para-foot{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5vh;
+  margin-top: 4vh;
+}
